@@ -8,7 +8,7 @@
 
         <title>ESD Venue</title>
         <?php
-        $myname = isset($_POST['nama']) ? $_POST['myname'] : '';
+        $myname = isset($_POST['myname']) ? $_POST['myname'] : '';
         $event_date = isset($_POST['event_date']) ? $_POST['event_date'] : '';
         $start_time = isset($_POST['start_time']) ? $_POST['start_time'] : '';
         $duration = isset($_POST['duration']) ? $_POST['duration'] : '';

@@ -68,7 +68,7 @@
                   <li class="list-group-item fw-bold" style="color: rgb(6, 218, 6); text-align: center;">Covid-19 Health Protocol</li>
                 </ul>
                 <div class="card-body text-center">
-                  <a href="Booking.php/building=Garuda Hall" class="btn btn-primary">Book Now</a>
+                  <a href="Booking.php?building=Garuda Hall" class="btn btn-primary">Book Now</a>
                 </div>
               </div>
             </div>

@@ -9,7 +9,7 @@
       <title>ESD Venue</title>
       
       <?php 
-      if (empty($_GET['building'])){
+      if (isset($_GET['building'])){
         $building = $_GET ['building'];
       }
       ?>
