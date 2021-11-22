@@ -1,15 +1,15 @@
-<?php
+    <?php
 
-    $dbhost = "localhost";
-    $dbuser = "root";
-    $dbname = "modul3";
-    $dbpass = "";
+        $dbhost = "localhost";
+        $dbuser = "root";
+        $dbname = "modul6";
+        $dbpass = "";
 
-    $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+        $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-    if(!$conn) {
-        echo "<script>
-                alert('Failed Connect into Database')'
-                </script>";
-    }
-?>
+        if(!$conn) {
+            echo "<script>
+                    alert('Failed Connect into Database')'
+                    </script>";
+        }
+    ?>
