@@ -2,7 +2,7 @@
 
         $dbhost = "localhost";
         $dbuser = "root";
-        $dbname = "modul6";
+        $dbname = "modul3";
         $dbpass = "";
 
         $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
