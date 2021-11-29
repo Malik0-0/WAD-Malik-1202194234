@@ -1,5 +1,5 @@
   <?php
-  session();
+  session_start();
   include_once('Config.php');
   if (isset($_POST['update'])) {
     $id = $_SESSION['id'];

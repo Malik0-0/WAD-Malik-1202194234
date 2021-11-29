@@ -1,12 +1,12 @@
     <?php
-    session_stop();
+    session_start();
     $nav = 'Black';
     if (isset($_COOKIE['nav'])) {
         $nav = $_COOKIE['nav'];
     }
     include_once('Config.php');
     if (isset($_POST['login'])) {
-        logout($_POST);
+        Login($_POST);
     }
     ?>
 
