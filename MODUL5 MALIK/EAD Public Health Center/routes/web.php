@@ -17,7 +17,7 @@
         return view('home');
     });
 
-    Route::resource('vaccine',Controller_Vaksin::class);
+    Route::resource('vaccine',Controller_Vaccine::class);
     Route::get('/patient/daftar/', 'Controller_Patient@daftar');
     Route::get('/patient/create/{id}/', 'Controller_Patient@create');
     Route::resource('patient', 'Controller_Patient', ['except' => ['create']]);

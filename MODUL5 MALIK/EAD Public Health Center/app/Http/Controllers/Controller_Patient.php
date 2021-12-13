@@ -1,11 +1,11 @@
-    <?php
+<?php
 
-    namespace App\Http\Controllers;
+namespace App\Http\Controllers;
 
-    use App\Models\Patient;
-    use App\Models\Vaccine;
-    use Illuminate\Http\Request;
-    use Illuminate\Support\Facades\DB;
+use App\Models\Patient;
+use App\Models\Vaccine;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
     class Controller_Patient extends Controller
     {
@@ -14,7 +14,7 @@
          *
          * @return \Illuminate\Http\Response
          */
-        public function indek()
+        public function index()
         {
             $total = DB::table('patients')->count();
             $patient = Patient::join('vaccines','vaccines.id' ,'=', 'patients.vaccine_id')->get(['patients.*', 'vaccines.name AS vaccine']);

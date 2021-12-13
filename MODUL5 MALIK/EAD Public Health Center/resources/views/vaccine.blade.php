@@ -18,7 +18,7 @@
                     <td colspan="">Action</td>
                 </thead>
                 <tbody>
-                    @foreach ($vaksinss as $items)
+                    @foreach ($vaccines as $items)
                     <tr>
                         <th scope="row">{{$loop -> iteration}}</th>
                         <td colspan="">{{$items -> name}}</td>
